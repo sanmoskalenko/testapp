@@ -1,0 +1,14 @@
+{
+ :database-url "datomic:mem://localhost:4334/testapp"
+
+ :webserver {:port              8080
+             :join?             false
+             :http?             true
+             :max-idle-time     200000
+             :ssl?              false
+             :max-threads       10
+             :min-threads       5
+             :send-date-header? true
+             :async?            true}
+
+ }

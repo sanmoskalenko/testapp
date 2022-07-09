@@ -1,0 +1,42 @@
+{:project-name/testapp {:txes [[{:db/doc                "Order ID"
+                                 :db/id                 #db/id[:db.part/db]
+                                 :db/ident              :order/id
+                                 :db/valueType          :db.type/uuid
+                                 :db/cardinality        :db.cardinality/one
+                                 :db/unique             :db.unique/identity
+                                 :db.install/_attribute :db.part/db}
+
+                                {:db/doc                "Order capture"
+                                 :db/id                 #db/id [:db.part/db]
+                                 :db/ident              :order/capture
+                                 :db/valueType          :db.type/string
+                                 :db/cardinality        :db.cardinality/one
+                                 :db.install/_attribute :db.part/db}
+
+                                {:db/doc                "Order description"
+                                 :db/id                 #db/id [:db.part/db]
+                                 :db/ident              :order/description
+                                 :db/valueType          :db.type/string
+                                 :db/cardinality        :db.cardinality/one
+                                 :db.install/_attribute :db.part/db}
+
+                                {:db/doc                "Order reporter"
+                                 :db/id                 #db/id [:db.part/db]
+                                 :db/ident              :order/reporter
+                                 :db/valueType          :db.type/string
+                                 :db/cardinality        :db.cardinality/one
+                                 :db.install/_attribute :db.part/db}
+
+                                {:db/doc                "Order assignee"
+                                 :db/id                 #db/id [:db.part/db]
+                                 :db/ident              :order/assignee
+                                 :db/valueType          :db.type/string
+                                 :db/cardinality        :db.cardinality/one
+                                 :db.install/_attribute :db.part/db}
+
+                                {:db/doc                "Order closed date"
+                                 :db/id                 #db/id [:db.part/db]
+                                 :db/ident              :order/closed-date
+                                 :db/valueType          :db.type/string
+                                 :db/cardinality        :db.cardinality/one
+                                 :db.install/_attribute :db.part/db}]]}}

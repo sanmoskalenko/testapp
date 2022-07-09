@@ -1,0 +1,4 @@
+# Project exclude paths
+/resources/public/js/compiled/js/
+/target/default/
+/target/default/classes/

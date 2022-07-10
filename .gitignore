@@ -1,4 +1,10 @@
 # Project exclude paths
 /resources/public/js/compiled/js/
-/target/default/
-/target/default/classes/
+/target
+testapp.iml
+/log
+/.shadow-cljs
+/.idea
+/env
+/node_modules
+package-lock.json

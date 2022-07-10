@@ -20,9 +20,9 @@ next, the command is enough to run:
 
 
 ## Build
-To build the application, you need to run the following command:
+To build an application into one uberjar that includes frontend and backend, run the following command:
 
-    lein uberjar
+    npm run release && lein uberjar 
 
 ## Description
 

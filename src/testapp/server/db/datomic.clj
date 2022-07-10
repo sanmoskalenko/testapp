@@ -46,7 +46,7 @@
 
 
 (defn list-orders []
-  "Return order list"
+  "Returns order list"
   (let [orders (mapv #(d/pull (d/db conn) '[*] %)
                      (d/q '[:find [?e ...] :where [?e :order/id]] (d/db conn)))]
     (if-not (nil? orders)
